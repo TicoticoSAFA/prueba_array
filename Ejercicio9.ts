@@ -39,3 +39,15 @@ class Moto extends Vehiculo {
         return `Moto: ${this.marca} ${this.modelo} | Año: ${this.ano} | Cilindrada: ${this.cilindrada}`;
     }
 }
+
+// Ejemplo de prueba para la clase Vehiculo
+const vehiculo = new Vehiculo('Toyota', 'Corolla', 2020);
+console.log(vehiculo.toString()); // Vehículo: Toyota Corolla | Año: 2020
+
+// Ejemplo de prueba para la clase Coche
+const coche = new Coche('Ford', 'Mustang', 2021, 2);
+console.log(coche.toString()); // Coche: Ford Mustang | Año: 2021 | Puertas: 2
+
+// Ejemplo de prueba para la clase Moto
+const moto = new Moto('Yamaha', 'MT-07', 2019, 689);
+console.log(moto.toString()); // Moto: Yamaha MT-07 | Año: 2019 | Cilindrada: 689
